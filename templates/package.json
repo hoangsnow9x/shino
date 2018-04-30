@@ -1,0 +1,36 @@
+{
+  "name": "shino",
+  "version": "0.0.1",
+  "description": "Shino' application generator",
+  "main": "index.js",
+  "bin": {
+    "shino": "shino-cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "ejs": "^2.5.9",
+    "minimatch": "^3.0.4",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "sorted-object": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bin/shino-cli"
+  },
+  "keywords": [
+    "shino",
+    "shino-cli",
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "author": "shino",
+  "license": "MIT"
+}
